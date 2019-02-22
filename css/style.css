@@ -32,7 +32,9 @@ nav {
 nav ul li a{
 	font-family: Minion Regular, Times, Times New Roman, serif!important;
 }
-
+.nav-link{
+	color: #b2b2b2 !important;
+}
 .nav-link:hover{
 	color: #fff !important;
 }
@@ -40,7 +42,7 @@ nav ul li a{
 	background-color: #000 !important;
 }
 .dropdown-menu .dropdown-item{
-	color: rgba(255,255,255,.5);
+	color: #b2b2b2;
 	font-size: 14px;
 }
 .dropdown-menu .dropdown-item:hover{
@@ -50,12 +52,32 @@ nav ul li a{
 	list-style-type: none;
 }
 .dropdown-menu .dropdown-item a{
-	color: rgba(255,255,255,.5);
+	color: #b2b2b2;
 }
 .dropdown-menu .dropdown-item a:hover{
 	color: #fff;
 	text-decoration: none;
 }
 .dropdown-menu .dropdown-item .border-bottom{
-	border-bottom: 1px solid rgba(255,255,255,.5);
+	border-bottom: 1px solid #b2b2b2;;
 }
+.nav-item .reservation{
+	background: linear-gradient(to bottom,#ad9d83 0,#7f7159 100%);
+	font-size: 13px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 8px 20px;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	letter-spacing: .05em;
+}
+.nav-item .second-nav{
+	font-size: 11px;
+}
+

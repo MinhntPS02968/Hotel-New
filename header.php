@@ -8,7 +8,7 @@
   </button>
   <div class="col-md-10 collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#">SPECIAL OFFERS</a>
       </li>
       <li class="nav-item dropdown">
@@ -67,20 +67,17 @@
     </ul>
     <div class="navbar-nav">
     	<div class="nav-item">
-        	<a class="nav-link" href="#">EHG NEWS</a>
-      </div>
-    </div>
-    <div class="navbar-nav">
-        	<span class="text-light">|</span>
-    </div>
-    <div class="navbar-nav">
-    	<div class="nav-item">
-        	<a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link border border-bottom-0 border-top-0 border-left-0 py-0" href="#"><span class="second-nav">EHG NEWS</span></a>
       </div>
     </div>
     <div class="navbar-nav">
     	<div class="nav-item">
-    		<a href="#" class="btn btn-light" role="button">RESERVATION</a>
+            <a class="nav-link" href="#"><span class="second-nav">Contact Us</span></a>
+      </div>
+    </div>
+    <div class="navbar-nav">
+    	<div class="nav-item">
+    		<a href="#" class="reservation">RESERVATION</a>
       </div>
     </div>
   </div>
