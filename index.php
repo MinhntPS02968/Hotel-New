@@ -146,12 +146,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="container tour">
-                    <ul class="pl-0 row text-left">
+                <div class="container tour mb-4">
+                    <ul class="pl-0 row text-left mb-0">
                         <li class="col-md-11 mx-4">
                             <div class="row tour-border py-4">
-                                <div class="col-md-10">dsa</div>
-                                <div class="col-md-2 text-right">dsa</div>
+                                <div class="col-md-10 tour-name">Hanoi La Siesta Diamond Special Offers & Packages
+                                </div>
+                                <a class="tour-view col-md-2 text-right" href="#">VIEW DETAIL</a>
+                            </div>
+                        </li>
+                        <li class="col-md-11 mx-4">
+                            <div class="row tour-border py-4">
+                                <div class="col-md-10 tour-name">Hanoi La Siesta Diamond Special Offers & Packages
+                                </div>
+                                <a class="tour-view col-md-2 text-right" href="#">VIEW DETAIL</a>
+                            </div>
+                        </li>
+                        <li class="col-md-11 mx-4">
+                            <div class="row tour-border py-4">
+                                <div class="col-md-10 tour-name">Hanoi La Siesta Diamond Special Offers & Packages
+                                </div>
+                                <a class="tour-view col-md-2 text-right" href="#">VIEW DETAIL</a>
+                            </div>
+                        </li>
+                        <li class="col-md-11 mx-4">
+                            <div class="row tour-border py-4">
+                                <div class="col-md-10 tour-name">Hanoi La Siesta Diamond Special Offers & Packages
+                                </div>
+                                <a class="tour-view col-md-2 text-right" href="#">VIEW DETAIL</a>
                             </div>
                         </li>
                     </ul>

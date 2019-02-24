@@ -202,3 +202,22 @@ nav ul li a{
 	border-bottom: solid 1px #ddd;
 	overflow: hidden;
 }
+.tour .tour-border .tour-name{
+	color: #766b58;
+	font-size: 18px;
+	font-family: Minion Regular;
+	font-style: italic;
+}
+.tour .tour-border .tour-view{
+	color: #ad9d83;
+	text-decoration: none;
+	letter-spacing: .02em;
+	font-size: 11px;
+	line-height: 22px;
+}
+/*footer*/
+footer{
+	min-height: 260px;
+	overflow: hidden;
+	background: #000000;
+}
