@@ -1,12 +1,12 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container-fluid">
-  	<a class="navbar-brand col-md-2" href="#">
+  	<a class="navbar-brand col-md-2 offset-md-4 offset-lg-0 col-lg-2" href="#">
   		<img class="img-fluid" src="img/logo.png">
   	</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="col-md-10 collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="col-lg-10 collapse navbar-collapse text-center" id="navbarNavDropdown">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="#">SPECIAL OFFERS</a>

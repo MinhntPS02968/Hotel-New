@@ -42,6 +42,122 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-8 pr-4 my-2">
+                    <img class="img-fluid" src="img/about-elegance-hospitality.jpg"/>
+                </div>
+                <div class="inforbox col-lg-4 my-2 text-center">
+                    <h2><div class="infortitle">Elegance Hospitality</div></h2>
+                    <div class="small-line"></div>
+                    <div class="text-center infortext">
+                        <p>Welcome to Elegance Hospitality Group
+                            Elegance Hospitality is a group of hotels which has been becoming very popular among tourist community.
+                            Founded in early 2000s, we have developed from our first hotel in Hanoi
+                            to the current chain of 8 boutique hotels in Hanoi Old Quarter and 1 outstanding resort
+                            in Hoi An Town. Our distinctive collection of properties will redefine the very concept of boutique and luxury... </p>
+                    </div>
+                    <div class="my-4"><a href="#">ROOMS & RATES</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0 hospitality text-center pt-4">
+            <div class="container">
+                <h2><span class="hos-subtitle">Elegance</span> HOSPITALITY</h2>
+                <div class="center-line"></div>
+                <div class="row">
+                    <div class="col-lg-10 mb-3 text-left"><h4 class="Fea-title">FEATURED SERVICES</h4></div>
+                </div>
+                <div class="row services text-left mb-5">
+                    <div class="col-lg-3 col-md-6 mb-2">
+                        <a href="#"><img class="img-fluid mb-3" src="img/twilight-sky-bar.jpg" alt="" width="100%"/>
+                        <h5 class="mb-2">Twilight Sky Bar </h5></a>
+                        <p>A spiral staircase leads from Red Bean on the seventh floor to the stylishly cool rooftop terrace.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-2">
+                        <a href="#"><img class="img-fluid mb-3" src="img/gourmet-340x205.jpg" alt="" width="100%"/>
+                            <h5 class="mb-2">The Gourmet Corner Restaurant</h5></a>
+                        <p>Located on the top floor of La Siesta Diamond hotel, the Gourmet Corner restaurant...</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-2">
+                        <a href="#"><img class="img-fluid mb-3" src="img/Red-Bean-Restaurant.jpg" alt="" width="100%"/>
+                            <h5 class="mb-2">Red Bean Restaurant</h5></a>
+                        <p>At Red Bean our vision is to become one of Vietnam’s leading restaurant brands serving...</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-2">
+                        <a href="#"><img class="img-fluid mb-3" src="img/La-Siesta-Spa.jpg" alt="" width="100%"/>
+                            <h5 class="mb-2">La Spa </h5></a>
+                        <p>With several years combined experience in the Vietnamese Spa industry, our skilled and...</p>
+                    </div>
+                </div>
+                <div class="row packages">
+                    <div class="col-lg-10 mb-3 text-left"><h4 class="Fea-title">FEATURED PACKAGES & OFFERS</h4></div>
+                    <div class="col-lg-6 mb-4">
+                        <img class="img-fluid" src="img/Spa2.2.jpg" alt="" width="100%"/>
+                        <div class="p-3 bg-infor box-shadow text-left">
+                            <span class="subhead py-2">LA SPA</span>
+                            <h3 class="mt-1">La Spa Promotions</h3>
+                            <p>Visit homepage of our famous La Spa for special offers and promotions.</p>
+                            <div class="mb-4"><a href="#">READ MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-6 text-left mb-4 pb-2">
+                                <img src="img/trendy-340x205.jpg" alt="" width="100%"/>
+                                    <div class="bg-infor box-shadow p-3">
+                                        <span class="subhead text-left">HANOI LA SIESTA TRENDY HOTEL & SPA</span>
+                                        <h5>Premium Package</h5>
+                                        <a href="#"><div>VIEW DETAIL OFFERS</div></a>
+                                    </div>
+                            </div>
+
+                            <div class="col-lg-6 text-left mb-4 pb-2">
+                                <img src="img/Lasiesta_getaway-specials-package.jpg" alt="" width="100%"/>
+                                <div class="bg-infor box-shadow p-3">
+                                    <span class="subhead text-left">HANOI LA SIESTA HOTEL & SPA</span>
+                                    <h5>Premium Package</h5>
+                                    <a href="#"><div>VIEW DETAIL OFFERS</div></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 text-left mb-4 pb-2">
+                                <img src="img/trendy-340x205.jpg" alt="" width="100%"/>
+                                <div class="bg-infor box-shadow p-3">
+                                    <span class="subhead text-left">HANOI LA SIESTA TRENDY HOTEL & SPA</span>
+                                    <h5>Premium Package</h5>
+                                    <a href="#"><div>VIEW DETAIL OFFERS</div></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 text-left mb-4 pb-2">
+                                <img src="img/Lasiesta_getaway-specials-package.jpg" alt="" width="100%"/>
+                                <div class="bg-infor box-shadow p-3">
+                                    <span class="subhead text-left">HANOI LA SIESTA HOTEL & SPA</span>
+                                    <h5>Premium Package</h5>
+                                    <a href="#"><div>VIEW DETAIL OFFERS</div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tour">
+                    <ul class="pl-0 row text-left">
+                        <li class="col-md-11 mx-4">
+                            <div class="row tour-border py-4">
+                                <div class="col-md-10">dsa</div>
+                                <div class="col-md-2 text-right">dsa</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 	</section>
 <?php 
 	include 'footer.php';

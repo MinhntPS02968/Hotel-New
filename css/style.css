@@ -3,6 +3,10 @@
   src: url(font/Helvetica.woff);
 }
 @font-face {
+	font-family: Futura;
+	src: url(font/ufontscomfuturabook.woff);
+}
+@font-face {
 font-family: Helvetica Oblique;
 src: url(font/Helvetica-Oblique.woff);
 }
@@ -19,18 +23,26 @@ src: url(font/Helvetica-BoldOblique.woff);
 
 @font-face {
 font-family: Minion Regular;
-src: url(font/Minion Regular.ttf);
+src: url(font/Minion Regular.woff);
 }
 
 body{
-	font-family: Helvetica, Arial, sans-serif!important; 
+	font-family: "Futura", Helvetica, Arial, sans-serif!important;
+	color: #666 !important;
 }
+a:hover{
+	text-decoration: none !important;
+}
+h1, h2, h3, h4, h5, h6{
+	color: #766b58;
+}
+/* header*/
 nav {
 	background-color: #000;
 	font-size: 14px;
 }
 nav ul li a{
-	font-family: Minion Regular, Times, Times New Roman, serif!important;
+	font-family: "Minion Regular", Times, "Times New Roman", serif!important;
 }
 .nav-link{
 	color: #b2b2b2 !important;
@@ -80,4 +92,113 @@ nav ul li a{
 .nav-item .second-nav{
 	font-size: 11px;
 }
-
+/*index*/
+.inforbox {
+	border: solid 1px #afa593;
+	padding: 25px 30px 5px !important;
+	color: #666;
+}
+.inforbox .infortitle{
+	font-size: 22px;
+	line-height: 22px;
+	color: #ad9d83;
+	font-family: Minion Regular;
+	font-style: italic;
+}
+.small-line{
+	width: 50px;
+	border: 0;
+	border-top: solid 2px #ad9d83;
+	margin: 25px auto;
+}
+.inforbox .infortext {
+	font-size: 13px;
+	word-wrap: break-word;
+	font-family: Futura;
+}
+.inforbox a{
+	color: #ad9d83;
+	text-decoration: none;
+	letter-spacing: .02em;
+	font-size: 11px;
+}
+.inforbox a:hover{
+	color: #ad9d83;
+}
+.hospitality{
+	background-color: #f6f6f6 !important;
+}
+.hospitality h2 {
+	font-family: Minion Regular;
+	font-size: 35px;
+}
+.hospitality h2 .hos-subtitle{
+	font-style: italic;
+	color: #ad9d83;
+}
+.center-line{
+	width: 90px;
+	border: 0;
+	border-top: solid 2px #ad9d83;
+	margin: 25px auto;
+}
+.Fea-title{
+	color: #ad9d83;
+	font-size: 22px;
+	font-family: Minion Regular;
+}
+.services h5{
+	font-size: 18px;
+	font-family: Minion Regular;
+	font-style: italic;
+}
+.services p{
+	font-size: 13px;
+	font-family: Futura;
+}
+.packages .box-shadow{
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.12);
+}
+.packages .bg-infor{
+	background: url(../img/FFFFFF70.png) repeat;
+}
+.packages .subhead{
+	color: #000;
+	font-family: Futura;
+	line-height: 11px;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+.packages .bg-infor h3{
+	color: #766b58;
+	font-size: 26px;
+	font-family: Minion Regular;
+	font-style: italic;
+}
+.packages .bg-infor p{
+	word-wrap: break-word;
+	color: #666;
+	font-family: Futura;
+	font-size: 13px;
+	font-weight: bold;
+}
+.packages .bg-infor a{
+	font-size: 11px;
+	color: #ad9d83;
+	font-family: Futura;
+	letter-spacing: .02em;
+}
+.packages .bg-infor h5{
+	font-family: Minion Regular;
+	font-style: italic;
+}
+.tour {
+	border: solid 1px #afa593;
+}
+.tour ul{
+	list-style-type: none;
+}
+.tour .tour-border{
+	border-bottom: solid 1px #ddd;
+	overflow: hidden;
+}
