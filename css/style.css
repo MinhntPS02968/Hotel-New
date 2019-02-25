@@ -42,7 +42,7 @@ nav {
 	font-size: 14px;
 }
 nav ul li a{
-	font-family: "Minion Regular", Times, "Times New Roman", serif!important;
+	font-family: Futura, Times, "Times New Roman", serif!important;
 }
 .nav-link{
 	color: #b2b2b2 !important;
@@ -220,4 +220,34 @@ footer{
 	min-height: 260px;
 	overflow: hidden;
 	background: #000000;
+}
+footer h6{
+	font: 14px "Futura",Times,"Times New Roman",serif;
+}
+footer ul {
+	list-style-type: none;
+	font-size: 13px
+}
+footer a{
+	color: #b7b7b7;
+}
+footer .adress{
+	border-bottom: 1px solid #333;
+}
+footer .social li a{
+	width: 23px;
+    height: 23px;
+    overflow: hidden;
+    text-indent: -9999em;
+    background: transparent url(../img/icons.png) no-repeat 0 0;
+    display: block;
+}
+footer .social li.facebook a{
+	background-position: -12px -50px;
+}
+footer .social li.instagram a{
+	background-position: -210px -88px;
+}
+footer .social li.youtube a{
+	background-position: -50px -50px;
 }
