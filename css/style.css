@@ -231,6 +231,9 @@ footer ul {
 footer a{
 	color: #b7b7b7;
 }
+footer a:hover{
+	color: #b7b7b7;
+}
 footer .adress{
 	border-bottom: 1px solid #333;
 }
@@ -250,4 +253,36 @@ footer .social li.instagram a{
 }
 footer .social li.youtube a{
 	background-position: -50px -50px;
+}
+footer .newsletter {
+	font-size: 13px;
+}
+/* back to top*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 15px !important;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+/* Modal Reservation*/
+.modal-backdrop{
+	z-index: 1000!important;
+}
+.modal-content{
+	border-radius: 0!important;
+	background: url(../img/texture.png),linear-gradient(to bottom,#121212 0,#000 100%);;
+}
+.modal-title {
+	font: 22px Minion Regular,Times,"Times New Roman",serif;
+	font-style: italic;
+}
+.modal-body label{
+	line-height: 30px;
+	color: #666;
 }
