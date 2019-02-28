@@ -42,7 +42,7 @@ nav {
 	font-size: 14px;
 }
 nav ul li a{
-	font-family: Futura, Times, "Times New Roman", serif!important;
+	font-family: "Futura", Times, "Times New Roman", serif!important;
 }
 .nav-link{
 	color: #b2b2b2 !important;
@@ -117,7 +117,7 @@ nav ul li a{
 }
 .inforbox .infortext p{
 	word-wrap: break-word;
-	max-height: 160px;
+	max-height: 170px;
 	overflow: hidden;
 }
 @media only screen and (max-width: 1279px){

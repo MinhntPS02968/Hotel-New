@@ -40,8 +40,8 @@ include 'header.php';
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="container-fluid">
-    <div class="row my-5">
+<div class="container-fluid px-0">
+    <div class="row my-5 mx-0">
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
             <div class="row">
@@ -224,7 +224,7 @@ include 'header.php';
 </div>
 <footer class="footer" id="footer">
     <a onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</a>
-    <div class="row pt-5">
+    <div class="row pt-5 mx-0" >
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
             <div class="row mb-3">
