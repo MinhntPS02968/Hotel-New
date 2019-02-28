@@ -1,29 +1,29 @@
 @font-face {
   font-family: Helvetica;
-  src: url(font/Helvetica.woff);
+  src: url("../font/Helvetica.woff");
 }
 @font-face {
 	font-family: Futura;
-	src: url(font/ufontscomfuturabook.woff);
+	src: url("../font/ufontscomfuturabook.woff");
 }
 @font-face {
 font-family: Helvetica Oblique;
-src: url(font/Helvetica-Oblique.woff);
+src: url("../font/Helvetica-Oblique.woff");
 }
 
 @font-face {
 font-family: Helvetica Bold;
-src: url(font/Helvetica-Bold.woff);
+src: url("../font/Helvetica-Bold.woff");
 }
 
 @font-face {
 font-family: Helvetica Bold Oblique;
-src: url(font/Helvetica-BoldOblique.woff);
+src: url("../font/Helvetica-BoldOblique.woff");
 }
 
 @font-face {
 font-family: Minion Regular;
-src: url(font/Minion Regular.woff);
+src: url("../font/Minion Regular.woff");
 }
 
 body{
