@@ -113,8 +113,19 @@ nav ul li a{
 }
 .inforbox .infortext {
 	font-size: 13px;
-	word-wrap: break-word;
 	font-family: Futura;
+}
+.inforbox .infortext p{
+	word-wrap: break-word;
+	max-height: 160px;
+	overflow: hidden;
+}
+@media only screen and (max-width: 1279px){
+	.inforbox .infortext p{
+		word-wrap: break-word;
+		max-height: 60px;
+		overflow: hidden;
+	}
 }
 .inforbox a{
 	color: #ad9d83;

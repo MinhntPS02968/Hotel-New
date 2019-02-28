@@ -46,9 +46,9 @@ include 'header.php';
         <div class="col-lg-8">
             <div class="row">
                 <div class="col-lg-8 pr-4 my-2">
-                    <img class="img-fluid" src="img/about-elegance-hospitality.jpg"/>
+                    <img src="img/about-elegance-hospitality.jpg" width="100%" height="100%"/>
                 </div>
-                <div class="inforbox col-lg-4 my-2 text-center">
+                <div class="inforbox col-sm-10 offset-sm-1 offset-lg-0 col-lg-4 my-2 text-center">
                     <h2>
                         <div class="infortitle">Elegance Hospitality</div>
                     </h2>
