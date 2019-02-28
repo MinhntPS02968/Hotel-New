@@ -61,9 +61,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mx-0 hospitality text-center pt-4">
+        <div class="row mx-0 hospitality pt-4">
             <div class="container">
-                <h2><span class="hos-subtitle">Elegance</span> HOSPITALITY</h2>
+                <h2 class="text-center"><span class="hos-subtitle">Elegance</span> HOSPITALITY</h2>
                 <div class="center-line"></div>
                 <div class="row">
                     <div class="col-lg-10 mb-3 text-left"><h4 class="Fea-title">FEATURED SERVICES</h4></div>
