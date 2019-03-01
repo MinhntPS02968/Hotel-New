@@ -307,7 +307,7 @@ footer .newsletter {
 .sidebar {
 	margin: 0;
 	padding: 0;
-	width: 200px;
+	width: 170px;
 	height: 100%;
 	background-color: transparent;
 	position: absolute;
@@ -315,7 +315,7 @@ footer .newsletter {
 	box-shadow: 5px 0 10px -5px rgba(0,0,0,.1);
 }
 #mysidebar{
-	width: 200px;
+	width: 170px;
 }
 
 /* Sidebar links */
@@ -341,8 +341,9 @@ footer .newsletter {
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
 	margin-left: 200px;
+	font-size: 13px;
 	padding: 1px 16px;
-	height: 1000px;
+	height: 100%;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -362,4 +363,68 @@ div.content {
 		text-align: center;
 		float: none;
 	}
+}
+/* aboutus */
+.share-title {
+	font-size: 11px;
+	margin-right: 3px;
+	line-height: 22px;
+}
+.item-set {
+	float: right;
+	list-style-type: none;
+}
+.item-set .item{
+	float: left;
+	margin: 0 5px;
+	text-indent: 99999px;
+}
+.item-set .item a {
+	 display: block;
+	 height: 20px;
+	 width: 21px;
+	 background-image: url(../img/icons.png);
+ }
+.item-set .email a {
+	background-position: -12px -13px;
+}
+.item-set .facebook a {
+	background-position: -51px -13px;
+}
+.item-set .twitter a {
+	background-position: -90px -13px;
+}
+.item-set .pinterest a {
+	background-position: -132px -13px;
+}
+.aboutus-subhead{
+	line-height: 20px;
+	font-family: "Minion Italic",Times,"Times New Roman",serif;
+	font-size: 26px;
+}
+.aboutus-text{
+	font: 13px/20px "Futura Book",Helvetica,Arial,sans-serif;
+}
+.aboutus-text h1{
+	font: 35px/35px "Minion Regular",Times,"Times New Roman",serif;
+	color: #766b58;
+}
+.offers-infor{
+	background: #fff;
+}
+.offers-infor p{
+	max-height: 100px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.offers-infor a{
+	font-size: 11px;
+	color: #ad9d83;
+}
+.offers-infor a:hover{
+	color: #ad9d83;
+}
+.offers-infor a h5{
+	font: 18px/22px "Minion Italic",Times,"Times New Roman",serif;
+	letter-spacing: .01em;
 }

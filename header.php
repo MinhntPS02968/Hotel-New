@@ -9,7 +9,7 @@
   <div class="col-lg-10 collapse navbar-collapse text-center pb-2" id="navbarNavDropdown">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">SPECIAL OFFERS</a>
+        <a class="nav-link" href="offers.php">SPECIAL OFFERS</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
