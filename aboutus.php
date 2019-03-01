@@ -22,24 +22,26 @@ include 'header.php';
 <div class="head-banner"></div>
 <div class="container main">
     <!-- The sidebar-->
-    <div id="mysidebar" class="sidebar pt-4">
-        <a class="py-3 pl-2" href="#home">ABOUT US</a>
-        <a class="py-3 pl-2" data-toggle="collapse" href="#SERVICES" role="button" aria-expanded="false" aria-controls="collapseExample">
-            SERVICES
-        </a>
+    <div class="sidebar pt-4">
+        <div id="mysidebar">
+            <a class="py-3 pl-2" href="#home">ABOUT US</a>
+            <a class="py-3 pl-2" data-toggle="collapse" href="#SERVICES" role="button" aria-expanded="false" aria-controls="collapseExample">
+                SERVICES
+            </a>
             <div class="collapse border border-left-0 border-right-0" id="SERVICES">
                 <a class="dropdown-item py-2" href="#">TOURS</a>
                 <a class="dropdown-item py-2" href="#">Another action</a>
                 <a class="dropdown-item py-2" href="#">Something else here</a>
             </div>
-        <a class="py-3 pl-2" href="#contact">TOURS</a>
-        <a class="py-3 pl-2" data-toggle="collapse" href="#HANOIDISCOVERY" role="button" aria-expanded="false" aria-controls="collapseExample">
-            HANOI DISCOVERY
-        </a>
-        <div class="collapse" id="HANOIDISCOVERY">
-            <a class="dropdown-item" href="#">TOURS</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="py-3 pl-2" href="#contact">TOURS</a>
+            <a class="py-3 pl-2" data-toggle="collapse" href="#HANOIDISCOVERY" role="button" aria-expanded="false" aria-controls="collapseExample">
+                HANOI DISCOVERY
+            </a>
+            <div class="collapse" id="HANOIDISCOVERY">
+                <a class="dropdown-item" href="#">TOURS</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
         </div>
     </div>
 
@@ -213,9 +215,10 @@ include 'header.php';
     };
 
     function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
             document.getElementById("myBtn").style.display = "block";
             document.getElementById("mysidebar").style.top = "70px";
+            document.getElementById("mysidebar").style.position = "fixed";
         } else {
             document.getElementById("myBtn").style.display = "none";
             document.getElementById("mysidebar").style.top = "400px";
