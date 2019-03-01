@@ -245,8 +245,8 @@ footer a{
 footer a:hover{
 	color: #b7b7b7;
 }
-footer .address{
-	border-bottom: 1px solid #333;
+footer .address hr{
+	border-top: 1px solid #333;
 }
 footer .social li a{
 	width: 23px;
@@ -339,12 +339,12 @@ footer .newsletter {
 	color: white;
 }
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
-	margin-left: 200px;
-	font-size: 13px;
-	padding: 1px 16px;
-	height: 100%;
-}
+/*div.content {*/
+	/*margin-left: 200px;*/
+	/*font-size: 13px;*/
+	/*padding: 1px 16px;*/
+	/*height: 100%;*/
+/*}*/
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
