@@ -314,6 +314,9 @@ footer .newsletter {
 	overflow: auto;
 	box-shadow: 5px 0 10px -5px rgba(0,0,0,.1);
 }
+#mysidebar{
+	width: 200px;
+}
 
 /* Sidebar links */
 .sidebar a {

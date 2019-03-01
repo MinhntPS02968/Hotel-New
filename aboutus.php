@@ -222,6 +222,7 @@ include 'header.php';
         } else {
             document.getElementById("myBtn").style.display = "none";
             document.getElementById("mysidebar").style.top = "400px";
+            document.getElementById("mysidebar").style.position = "unset";
         }
     }
 
