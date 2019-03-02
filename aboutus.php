@@ -123,15 +123,20 @@ include 'header.php';
     };
 
     function scrollFunction() {
-        if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        if (document.body.scrollTop > 350 && document.body.scrollTop < 900 || document.documentElement.scrollTop > 350 && document.documentElement.scrollTop < 900) {
             document.getElementById("myBtn").style.display = "block";
             document.getElementById("mysidebar").style.top = "70px";
             document.getElementById("mysidebar").style.position = "fixed";
-        } else {
+        } else if (document.body.scrollTop >= 900 || document.documentElement.scrollTop >= 900) {
+            document.getElementById("mysidebar").style.bottom = "40px";
+            document.getElementById("mysidebar").style.top = "unset";
+            document.getElementById("mysidebar").style.position = "absolute";
+        } else{
             document.getElementById("myBtn").style.display = "none";
             document.getElementById("mysidebar").style.top = "400px";
             document.getElementById("mysidebar").style.position = "unset";
         }
+
     }
 
     // When the user clicks on the button, scroll to the top of the document
