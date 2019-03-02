@@ -25,10 +25,10 @@ include 'header.php';
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <div class="row">
-                <div class="col-md-2 col-sm-3 sidebar">
+                <div class="col-md-2 col-sm-3 sidebar d-md-none d-lg-block">
                     <!-- The sidebar-->
                     <div id="mysidebar">
-                        <ul>
+                        <ul class="pl-0">
                             <li>
                                 <a class="py-3 pl-2" href="#home">ABOUT US</a>
                             </li>
@@ -37,47 +37,30 @@ include 'header.php';
                                    aria-controls="collapseExample">
                                     SERVICES
                                 </a>
-                                <ul>
+                                <ul class="pl-0 collapse border border-left-0 border-right-0" id="SERVICES">
                                     <li><a class="dropdown-item py-2" href="#">TOURS</a></li>
                                     <li><a class="dropdown-item py-2" href="#">Another action</a></li>
                                     <li><a class="dropdown-item py-2" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="py-3 pl-2" data-toggle="collapse" href="#HANOIDISCOVERY" role="button" aria-expanded="false"
+                                <a class="py-3 pl-2" href="#home">TOURS</a>
+                            </li>
+                            <li>
+                                <a class="py-3 px-2" data-toggle="collapse" href="#HANOIDISCOVERY" role="button" aria-expanded="false"
                                    aria-controls="collapseExample">
                                     HANOI DISCOVERY
                                 </a>
-                                <ul>
+                                <ul class="pl-0 collapse border border-left-0 border-right-0" id="HANOIDISCOVERY">
                                     <li><a class="dropdown-item py-2" href="#">TOURS</a></li>
                                     <li><a class="dropdown-item py-2" href="#">Another action</a></li>
                                     <li><a class="dropdown-item py-2" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                         </ul>
-<!--                        <a class="py-3 pl-2" href="#home">ABOUT US</a>-->
-<!--                        <a class="py-3 pl-2" data-toggle="collapse" href="#SERVICES" role="button" aria-expanded="false"-->
-<!--                           aria-controls="collapseExample">-->
-<!--                            SERVICES-->
-<!--                        </a>-->
-<!--                        <div class="collapse border border-left-0 border-right-0" id="SERVICES">-->
-<!--                            <a class="dropdown-item py-2" href="#">TOURS</a>-->
-<!--                            <a class="dropdown-item py-2" href="#">Another action</a>-->
-<!--                            <a class="dropdown-item py-2" href="#">Something else here</a>-->
-<!--                        </div>-->
-<!--                        <a class="py-3 pl-2" href="#contact">TOURS</a>-->
-<!--                        <a class="py-3 pl-2" data-toggle="collapse" href="#HANOIDISCOVERY" role="button" aria-expanded="false"-->
-<!--                           aria-controls="collapseExample">-->
-<!--                            HANOI DISCOVERY-->
-<!--                        </a>-->
-<!--                        <div class="collapse border border-left-0 border-right-0" id="HANOIDISCOVERY">-->
-<!--                            <a class="dropdown-item py-2" href="#">TOURS</a>-->
-<!--                            <a class="dropdown-item py-2" href="#">Another action</a>-->
-<!--                            <a class="dropdown-item py-2" href="#">Something else here</a>-->
-<!--                        </div>-->
                     </div>
                 </div>
-                <div class="col-md-10 col-sm-9">
+                <div class="col-md-10 col-sm-12">
                     <!-- Page content -->
                     <div class="content">
                         <div class="row">

@@ -309,12 +309,16 @@ footer .newsletter {
 	padding: 0;
 	width: 170px;
 	background-color: transparent;
+	word-wrap: break-word;
 	position: absolute;
 	overflow: auto;
 	box-shadow: 5px 0 10px -5px rgba(0,0,0,.1);
 }
-#mysidebar{
-	width: 170px;
+.sidebar ul{
+	list-style-type: none !important;
+}
+.sidebar ul li{
+	word-wrap: break-word;
 }
 
 /* Sidebar links */
@@ -339,7 +343,7 @@ footer .newsletter {
 }
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .content{
-	height: 1024px;
+	min-height: 1024px;
 }
 /*div.content {*/
 	/*margin-left: 200px;*/
