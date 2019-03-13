@@ -73,7 +73,7 @@ nav ul li a{
 .dropdown-menu .dropdown-item .border-bottom{
 	border-bottom: 1px solid #b2b2b2;;
 }
-.nav-item .reservation{
+.reservation{
 	background: linear-gradient(to bottom,#ad9d83 0,#7f7159 100%);
 	font-size: 13px;
 	color: #fff;
@@ -433,4 +433,18 @@ footer .newsletter {
 .offers-infor a h5{
 	font: 18px/22px "Minion Italic",Times,"Times New Roman",serif;
 	letter-spacing: .01em;
+}
+/* detail */
+.nav-tabs{
+	border-bottom: 1px solid #ae9e83 !important;
+}
+.nav-tabs .nav-link.active{
+	border-color: #ae9e83 #ae9e83 #fff !important;
+	background: #fff;
+}
+.tabs-link{
+	color: #766b58 !important;
+}
+.tabs-link:hover{
+	color: #766b58 !important;
 }
