@@ -113,7 +113,7 @@ include 'header.php';
                                                         <div class="row mt-5">
                                                             <div class="col-sm-3"></div>
                                                             <div class="col-sm-7">
-                                                                <button type="button" class="reservation">BOOK NOW</button>
+                                                                <a href="booking.php" class="btn reservation">BOOK NOW</a>
                                                             </div>
                                                             <div class="col-sm-2"></div>
                                                         </div>

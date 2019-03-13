@@ -74,7 +74,7 @@ nav ul li a{
 	border-bottom: 1px solid #b2b2b2;;
 }
 .reservation{
-	background: linear-gradient(to bottom,#ad9d83 0,#7f7159 100%);
+	background: linear-gradient(to bottom,#ad9d83 0,#7f7159 100%) !important;
 	font-size: 13px;
 	color: #fff;
 	cursor: pointer;
@@ -82,7 +82,8 @@ nav ul li a{
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 8px 20px;
-	border: 0;
+	border: 0 !important;
+	border-radius: 0!important;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
