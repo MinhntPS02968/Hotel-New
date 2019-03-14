@@ -449,3 +449,40 @@ footer .newsletter {
 .tabs-link:hover{
 	color: #766b58 !important;
 }
+table.roomlist {
+	border-collapse: collapse;
+	border-color: #bbb;
+	vertical-align: middle;
+}
+.select{
+	font: 12px/30px "Futura Book",Helvetica,Arial,sans-serif;
+	color: #4c4c4c;
+	height: 30px;
+	outline: 0;
+}
+.tbltitle{
+	color: #e8c04e;
+	font-weight: bold;
+}
+.left-label h6{
+	font: 15px "Minion Regular",Times,"Times New Roman",serif;
+}
+.left-label ul{
+	list-style-type: none;
+}
+.left-label ul li label{
+	display: block;
+}
+.left-label ul li .note{
+	font-size: 11px;
+	color: #999;
+}
+.termscond h3{
+	font: 26px/28px "Minion Italic",Times,"Times New Roman",serif;
+}
+.termscond .term-text{
+	font: 13px "Futura Book",Helvetica,Arial,sans-serif;
+}
+.termscond a{
+	color: #e8c04e;
+}
